@@ -19,6 +19,7 @@ namespace BankApp.Tests
             Assert.Equal(5, stored.Quantity);
             Assert.Equal(5, store.GetTotalQuantity());
             Assert.Equal(10, store.GetTotalQuantity());
+            Assert.Equal(11, store.GetTotalQuantity());
         }
 
         [Theory]
